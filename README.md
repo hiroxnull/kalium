@@ -11,6 +11,15 @@ not affiliated with, sponsored by, or endorsed by KaliumLabs.
 python -m pip install kalium
 ```
 
+`kalium` is the recommended distribution. Compatibility aliases are also
+available; both install the core package and redirect imports to the same API.
+
+| Distribution | Install |
+| --- | --- |
+| Recommended: `kalium` | `python -m pip install kalium` |
+| `kaliumlabs` | `python -m pip install kaliumlabs` |
+| `kaliumlab` | `python -m pip install kaliumlab` |
+
 ## Import
 
 ```python
