@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kalium"
+version = "0.1.0"
+description = "Unofficial independent Python client for the KaliumLabs API."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Hiro Dev" }]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["requests>=2.31,<3"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Author Profile" = "https://github.com/hiroxnull"
